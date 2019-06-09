@@ -2,13 +2,13 @@
   "name": "node-wikiquote-api",
   "version": "1.0.0",
   "description": "NodeJs Implementation of WikiQuote API",
-  "main": "sample.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "main": "node-wikiquote-api.js",
   "author": "Divyanshu Maurya",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshu1610/node-wikiquote-api.git"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "node-rest-client": "^3.1.0"
