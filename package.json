@@ -1,6 +1,6 @@
 {
   "name": "node-wikiquote-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJs Implementation of WikiQuote API",
   "main": "node-wikiquote-api.js",
   "author": "Divyanshu Maurya",
