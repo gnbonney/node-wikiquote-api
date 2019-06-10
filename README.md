@@ -6,6 +6,15 @@ NodeJs implementation of wikiquote api
  - Fetcher a random quote of any specific person 
 <br>
 
+
+
+### Installation
+
+```
+  npm install node-wikiquote-api 
+
+```
+
 ### Use
 A use case is available in sample.js
 ![sample use image](/assets/images/sample.jpg)
