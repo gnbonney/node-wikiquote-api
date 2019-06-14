@@ -3,7 +3,7 @@
 ### About
 NodeJs implementation of wikiquote api
  - Fetches a random quote
- - Fetcher a random quote of any specific person 
+ - Fetches a random quote of any specific person 
 <br>
 
 
