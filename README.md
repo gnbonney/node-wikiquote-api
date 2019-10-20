@@ -1,9 +1,10 @@
 # node-wikiquote-api
 
 ### About
-NodeJs implementation of wikiquote api
+NodeJs implementation of Wikiquote API
  - Fetches a random quote
- - Fetches a random quote of any specific person 
+ - Fetches a random quote of any specific person
+ - Set length of quote
 <br>
 
 
