@@ -21,7 +21,7 @@ var getRandomQuote = function(handleSuccess,handleError,titles) {
     ]
 
     var titleList = []
-    titleList =  titles ? titles : defaultList  
+    titleList =  titles ? titles : defaultList
     randomInt = function(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
@@ -45,6 +45,7 @@ var randomQuoteByTitle = function (titleName, maxLimit, handleSuccess, handleErr
   function selectRandomQuote(quotes) {
     if (quotes.length === 0) {
       handleError("No Quotes Found")
+      return null
     }
 
     var randomNumber = Math.floor(Math.random() * quotes.length)
@@ -62,7 +63,7 @@ var randomQuoteByTitle = function (titleName, maxLimit, handleSuccess, handleErr
 
 
 /**
- * Get all the quotes and do a little cleanup 
+ * Get all the quotes and do a little cleanup
  */
 
 var getQuotes = function (titleName, maxLimit, handleSuccess, handleError) {
@@ -190,7 +191,7 @@ var getSectionsForPage = function (titleName, handleSuccess, handleError) {
 
 
 /**
- * 
+ *
  *   any sentence
  * Returns the input string with the first alphabet of each word capitalize
  */
@@ -208,8 +209,8 @@ function capitalizeString(input) {
 
 
 /**
- * 
- *  
+ *
+ *
  * Query based on "titleName" parameter and return page id.
  * If multiple page ids are returned, choose the first one.
  * Query includes "redirects" option to automatically traverse redirects.
